@@ -1,0 +1,52 @@
+POST http://localhost:5000/api/admin/signup
+Content-Type: application/json
+
+{
+    "Password": "123123",
+    "Phone": "0327618979",
+    "Email": "nvdatdev@gmail.com"
+}
+
+###
+POST http://localhost:5000/api/admin/signin
+Content-Type: application/json
+
+{
+    "Email": "nvdatdev@gmail.com",
+    "Password": "123123"
+}
+
+###
+
+POST http://localhost:5000/api/account/signup
+Content-Type: application/json
+
+{
+    "Password": "123123",
+    "Phone": "0372300544",
+    "Email": "datrepost01@gmail.com"
+}
+
+###
+
+POST http://localhost:5000/api/account/signin
+Content-Type: application/json
+
+{
+    "Email": "datrepost01@gmail.com",
+    "Password": "123123"
+}
+
+###
+POST http://localhost:5000/api/account/signin
+Content-Type: application/json
+
+{
+    "Email": "nvdatdev@gmail.com",
+    "Password": "123123"
+}
+
+
+###
+
+GET http://localhost:5000/api/product/1
